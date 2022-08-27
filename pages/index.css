@@ -1,0 +1,13 @@
+@import "../fonts/fonts.css";
+
+@import "../blocks/page/page.css";
+@import "../blocks/nav/nav.css";
+@import "../blocks/nav/__title/nav__title.css";
+@import "../blocks/nav/__title-dot/nav__title-dot.css";
+@import "../blocks/nav/__arrow/nav__arrow.css";
+@import "../blocks/nav/__menu/nav__menu.css";
+@import "../blocks/nav/__item/nav__item.css";
+
+
+
+

@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css " />
     <title>Landing page</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body class="page">
+    <nav>
+      <ul class="nav">
+        <div class="nav__title">
+          <h1>PinkPink<span class="nav__title-dot">.</span></h1>
+          
+          <button class="nav__menu"><img src="./assets/icons/hamburger-menu.png" alt="menu"></button>
+        </div>
+        <li class="nav__item "><a href="#showcase">Showcase</a><img class="nav__arrow" src="./assets/icons/nav-mobile-arrow.png" alt="arrow"></li>
+        <li class="nav__item"><a href="#how">How we do it</a><img class="nav__arrow" src="./assets/icons/nav-mobile-arrow.png" alt="arrow"></li>
+        <li class="nav__item"><a href="#projects">Our projects</a><img class="nav__arrow" src="./assets/icons/nav-mobile-arrow.png" alt="arrow"></li>
+        <li class="nav__item"><a href="#testimonials">Testimonials</a><img class="nav__arrow" src="./assets/icons/nav-mobile-arrow.png" alt="arrow"></li>
+        <li class="nav__item"><a href="#subscribe">Subscribe</a><img class="nav__arrow" src="./assets/icons/nav-mobile-arrow.png" alt="arrow"></li>
+      </ul>
+      
+    </nav>
+    <header></header>
+    <main>
+      <section data-nav="showcase" id="showcase" class="showcase"></section>
+      <section data-nav="how" id="how" class="how"></section>
+      <section data-nav="projects" id="projects" class="projects"></section>
+      <section
+        data-nav="testimonials"
+        id="testimonials"
+        class="testimonials"
+      ></section>
+      <section data-nav="subscribe" id="subscribe" class="subscribe"></section>
+    </main>
+
+    <script src="./scripts/app.js"></script>
+  </body>
 </html>

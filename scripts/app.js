@@ -1,0 +1,12 @@
+const navMenu = document.querySelector(".nav__menu");
+const navTitle = document.querySelector(".nav__title");
+const navItem = document.querySelectorAll(".nav__item");
+
+navMenu.addEventListener("click", openNavMenu);
+
+function openNavMenu() {
+  navTitle.classList.toggle("nav__title--active");
+  for (let i = 0; i < navItem.length; i++) {
+    navItem[i].classList.toggle("nav__item--active");
+  }
+}

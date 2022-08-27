@@ -1,0 +1,12 @@
+.nav__menu {
+   margin: 0; 
+   border: none;
+   background-color: transparent;
+   display: none;
+}
+
+@media (max-width: 768px) {
+    .nav__menu {
+        display: block;
+    }
+}

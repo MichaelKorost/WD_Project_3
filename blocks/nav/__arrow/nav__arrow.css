@@ -1,0 +1,11 @@
+.nav__arrow  {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .nav__arrow {
+        display: flex;
+        height: 14px;
+        margin: 0 10px 0 0;
+    }
+}
