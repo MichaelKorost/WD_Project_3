@@ -17,6 +17,7 @@
   .nav__title {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     width: 100%;
   }
 
