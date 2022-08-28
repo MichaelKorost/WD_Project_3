@@ -5,6 +5,7 @@
   margin: 56px 67px 46px;
   padding: 0;
   list-style: none;
+  position: sticky;
 }
 
 @media (max-width: 1024px) {

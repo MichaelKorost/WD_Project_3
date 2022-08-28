@@ -9,6 +9,13 @@
 @import "../blocks/nav/__menu-close/nav__menu-close.css";
 @import "../blocks/nav/__item/nav__item.css";
 
+@import '../blocks/header/header.css';
+@import '../blocks/heading/heading.css';
+@import '../blocks/heading/__img/heading__img.css';
 
-
+@import '../blocks/heading-info/heading-info.css';
+@import '../blocks/heading-info/__pre-title/heading-info__pre-title.css';
+@import '../blocks/heading-info/__title/heading-info__title.css';
+@import '../blocks/heading-info/__desc/heading-info__desc.css';
+@import '../blocks/heading-info/__footer/heading-info__footer.css';
 

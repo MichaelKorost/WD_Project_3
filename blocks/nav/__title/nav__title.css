@@ -9,8 +9,12 @@
   margin: 0;
 }
 
-.nav__title > h1 {
+.nav__title > a {
   margin: 0;
+  text-decoration: none;
+}
+.nav__title > a:visited {
+  color: #102a42;
 }
 
 @media (max-width: 768px) {

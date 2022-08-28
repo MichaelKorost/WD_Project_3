@@ -1,0 +1,17 @@
+.heading__img {
+    max-width: 50%;
+    object-fit: none;
+    border-bottom-left-radius:30px ;
+    border-top-left-radius: 30px;
+    height: auto;
+}
+
+@media (max-width:768px) {
+    .heading__img {
+        max-width: 100%;
+        height: 367px;
+        object-fit: cover;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 30px;
+    }
+}
