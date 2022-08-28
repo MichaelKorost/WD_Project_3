@@ -1,6 +1,8 @@
 @import "../fonts/fonts.css";
 
 @import "../blocks/page/page.css";
+
+@import "../blocks/nav-bar/nav-bar.css";
 @import "../blocks/nav/nav.css";
 @import "../blocks/nav/__title/nav__title.css";
 @import "../blocks/nav/__title-dot/nav__title-dot.css";

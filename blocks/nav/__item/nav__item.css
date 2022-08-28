@@ -13,6 +13,8 @@
 @media (max-width: 768px) {
   .nav__item {
     display: none;
+    padding: 6% 0;
+    width: 100%;
     font-family: "Source Sans Pro", serif;
     font-style: normal;
     font-weight: 400;
@@ -22,8 +24,6 @@
     margin: 0 0 0 10px;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 45px 0;
     border-bottom: 1px solid #eb529680;
   }
 }
