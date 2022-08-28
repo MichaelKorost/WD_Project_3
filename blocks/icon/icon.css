@@ -1,0 +1,12 @@
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+@media (max-width:1024px) {
+    .icon {
+        flex-direction: column;
+        gap: 23px;
+    }
+}

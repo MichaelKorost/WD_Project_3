@@ -9,6 +9,10 @@
   color: #102a42;
 }
 
+.heading-info__title > span {
+  color: #EB5296;
+}
+
 @media (max-width: 1024px) {
   .heading-info__title {
     margin: 70px 0 30px;

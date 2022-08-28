@@ -21,3 +21,11 @@
 @import '../blocks/heading-info/__desc/heading-info__desc.css';
 @import '../blocks/heading-info/__footer/heading-info__footer.css';
 
+@import '../blocks/icons-container/icons-container.css';
+@import '../blocks/icon-info-container/icon-info-container.css';
+@import '../blocks/icon/icon.css';
+@import '../blocks/icon/__img/icon__img.css';
+@import '../blocks/icon/__text/icon__text.css';
+@import '../blocks/icon/__title/icon__title.css';
+@import '../blocks/';
+@import '../blocks/';

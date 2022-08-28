@@ -1,0 +1,8 @@
+.icon__img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    padding: 26px;
+    background-color: #EB52961a;
+    border-radius: 50%;
+}
