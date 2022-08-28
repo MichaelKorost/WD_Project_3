@@ -1,0 +1,18 @@
+.showcase-img-container {
+    display: flex;
+    gap: 22px;
+    grid-area: images;
+}
+
+@media (max-width:1024px) {
+    .showcase-img-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .showcase-img-container {
+        
+    }
+}

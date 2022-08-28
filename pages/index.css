@@ -27,5 +27,11 @@
 @import '../blocks/icon/__img/icon__img.css';
 @import '../blocks/icon/__text/icon__text.css';
 @import '../blocks/icon/__title/icon__title.css';
-@import '../blocks/';
+
+@import '../blocks/showcase-img-container/showcase-img-container.css';
+@import '../blocks/arrow-container/arrow-container.css';
+@import '../blocks/showcase/showcase.css';
+@import '../blocks/showcase/__img/showcase__img.css';
+@import '../blocks/showcase/__title/showcase__title.css';
+
 @import '../blocks/';

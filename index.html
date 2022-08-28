@@ -8,8 +8,8 @@
     <title>Landing page</title>
   </head>
   <body class="page">
-    <nav class="nav-bar">
-      <ul class="nav">
+    <nav class="nav-bar"> <!-- possible fixes: instead of padding, li height -->
+      <ul class="nav">  
         <div class="nav__title">
           <a href="">PinkPink<span class="nav__title-dot">.</span></a>
 
@@ -108,7 +108,18 @@
         </div>
 
       </section>
-      <section data-nav="showcase" id="showcase" class="showcase"></section>
+      <section data-nav="showcase" id="showcase" class="showcase">
+        <h1 class="showcase__title">Explore our exclusive design showcase.</h1>
+        <div class="arrow-container">
+          <img src="./assets/icons/nav-arrow-left.png" alt="left arrow">
+          <img src="./assets/icons/nav-arrow-right.png" alt="left arrow">
+        </div>
+        <div class="showcase-img-container">
+          <img class="showcase__img" src="./assets/images/showcase-1.png" alt="showcase 1">
+          <img class="showcase__img" src="./assets/images/showcase-2.png" alt="showcase 2">
+          <img class="showcase__img" src="./assets/images/showcase-3.png" alt="showcase 3">
+        </div>
+      </section>
       <section data-nav="how" id="how" class="how"></section>
       <section data-nav="projects" id="projects" class="projects"></section>
       <section
