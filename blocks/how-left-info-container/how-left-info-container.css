@@ -1,0 +1,19 @@
+.how-left-info-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px
+}
+
+@media (max-width:1024px) {
+    .how-left-info-container {
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+    }
+}
+@media (max-width:768px) {
+    .how-left-info-container {
+        position: static;
+    }
+}

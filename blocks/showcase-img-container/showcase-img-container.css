@@ -2,12 +2,12 @@
     display: flex;
     gap: 22px;
     grid-area: images;
+    justify-content: center;
 }
 
 @media (max-width:1024px) {
     .showcase-img-container{
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-wrap: wrap;   
     }
 }
 

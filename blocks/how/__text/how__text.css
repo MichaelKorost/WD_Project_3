@@ -1,0 +1,19 @@
+.how__text {
+  width: 100%;
+  margin: 0;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 176%;
+  display: flex;
+  color: #102a42;
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .how__text {
+    max-width: none;
+    width: 100%;
+  }
+}

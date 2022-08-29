@@ -1,5 +1,5 @@
 .showcase__img {
-    max-width: calc(100% - 388.6666667px);
+    max-width: calc(100% / 3);
     min-width: 200px;
     height: 605px;
     border-radius: 15px;

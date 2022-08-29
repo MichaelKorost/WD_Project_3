@@ -1,0 +1,19 @@
+.how__title {
+  margin: 0;
+  max-width: 350px;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 128%;
+  letter-spacing: -1px;
+  color: #102a42;
+}
+
+@media (max-width: 768px) {
+  .how__title {
+    max-width: fit-content;
+    font-size: 33px;
+    line-height: 115%;
+  }
+}

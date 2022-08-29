@@ -11,27 +11,36 @@
 @import "../blocks/nav/__menu-close/nav__menu-close.css";
 @import "../blocks/nav/__item/nav__item.css";
 
-@import '../blocks/header/header.css';
-@import '../blocks/heading/heading.css';
-@import '../blocks/heading/__img/heading__img.css';
+@import "../blocks/header/header.css";
+@import "../blocks/heading/heading.css";
+@import "../blocks/heading/__img/heading__img.css";
 
-@import '../blocks/heading-info/heading-info.css';
-@import '../blocks/heading-info/__pre-title/heading-info__pre-title.css';
-@import '../blocks/heading-info/__title/heading-info__title.css';
-@import '../blocks/heading-info/__desc/heading-info__desc.css';
-@import '../blocks/heading-info/__footer/heading-info__footer.css';
+@import "../blocks/heading-info/heading-info.css";
+@import "../blocks/heading-info/__pre-title/heading-info__pre-title.css";
+@import "../blocks/heading-info/__title/heading-info__title.css";
+@import "../blocks/heading-info/__desc/heading-info__desc.css";
+@import "../blocks/heading-info/__footer/heading-info__footer.css";
 
-@import '../blocks/icons-container/icons-container.css';
-@import '../blocks/icon-info-container/icon-info-container.css';
-@import '../blocks/icon/icon.css';
-@import '../blocks/icon/__img/icon__img.css';
-@import '../blocks/icon/__text/icon__text.css';
-@import '../blocks/icon/__title/icon__title.css';
+@import "../blocks/icons-container/icons-container.css";
+@import "../blocks/icon-info-container/icon-info-container.css";
+@import "../blocks/icon/icon.css";
+@import "../blocks/icon/__img/icon__img.css";
+@import "../blocks/icon/__text/icon__text.css";
+@import "../blocks/icon/__title/icon__title.css";
 
-@import '../blocks/showcase-img-container/showcase-img-container.css';
-@import '../blocks/arrow-container/arrow-container.css';
-@import '../blocks/showcase/showcase.css';
-@import '../blocks/showcase/__img/showcase__img.css';
-@import '../blocks/showcase/__title/showcase__title.css';
+@import "../blocks/showcase-img-container/showcase-img-container.css";
+@import "../blocks/arrow-container/arrow-container.css";
+@import "../blocks/showcase/showcase.css";
+@import "../blocks/showcase/__img/showcase__img.css";
+@import "../blocks/showcase/__title/showcase__title.css";
 
-@import '../blocks/';
+@import "../blocks/how-left-info-container/how-left-info-container.css";
+@import "../blocks/how-right-info-container/how-right-info-container.css";
+@import "../blocks/how/how.css";
+@import "../blocks/how/__footer/how__footer.css";
+@import "../blocks/how/__heading/how__heading.css";
+@import "../blocks/how/__item/how__item.css";
+@import "../blocks/how/__num/how__num.css";
+@import "../blocks/how/__text/how__text.css";
+@import "../blocks/how/__title/how__title.css";
+@import "../blocks/how/__divider/how__divider.css";
