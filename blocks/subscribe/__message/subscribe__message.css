@@ -1,0 +1,63 @@
+.subscribe__message {
+  width: 100%;
+  padding: 10px 0 0;
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 280%;
+  color: #1d263a;
+  border: none;
+  resize: none;
+  z-index: 2;
+}
+
+.subscribe__message::placeholder {
+  color: #1d263a;
+  opacity: 0.5;
+}
+.subscribe__message:focus {
+  outline: none;
+}
+
+.line-1 {
+  padding: 0;
+  position: absolute;
+  z-index: 0;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0a043c80;
+}
+.line-2 {
+  padding: 0;
+  position: absolute;
+  z-index: 0;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0a043c80;
+}
+.line-3 {
+  padding: 0;
+  position: absolute;
+  z-index: 0;
+  bottom: 46px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0a043c80;
+}
+.line-4 {
+  padding: 0;
+  position: absolute;
+  z-index: 0;
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0a043c80;
+}

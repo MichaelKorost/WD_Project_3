@@ -225,23 +225,108 @@
           <a class="projects__link" href="#">EXPLORE OUR PROJECTS</a>
         </div>
       </section>
-      <section
-        data-nav="testimonials"
-        id="testimonials"
-        class="testimonials"
-      >
+      <section data-nav="testimonials" id="testimonials" class="testimonials">
         <div class="testimonials-info-container">
-          <h1 class="testimonials__title">“I absolutely love my new home and cannot thank you enough for all of your time and expertise”</h1>
+          <h1 class="testimonials__title">
+            “I absolutely love my new home and cannot thank you enough for all
+            of your time and expertise”
+          </h1>
           <h2 class="testimonials__name">Jenny Wilson</h2>
           <h3 class="testimonials__location">St. Celina, Delaware</h3>
         </div>
-        <video class="testimonials__video" src="./assets/video/video-sample.mp4" controls > 
-          <source src="./assets/video/video-sample.mp4" type="video/mp4">
-          <source src="./assets/video/video-sample.ogg" type="video/ogg">Your browser does not support the video player</video>
+        <video
+          class="testimonials__video"
+          src="./assets/video/video-sample.mp4"
+          controls
+        >
+          <source src="./assets/video/video-sample.mp4" type="video/mp4" />
+          <source src="./assets/video/video-sample.ogg" type="video/ogg" />
+          Your browser does not support the video player
+        </video>
       </section>
-      <section data-nav="subscribe" id="subscribe" class="subscribe"></section>
+      <section data-nav="subscribe" id="subscribe" class="subscribe">
+        <h1 class="subscribe__heading">
+          Subscribe to our newsletter to get updated<span>.</span>
+        </h1>
+        <p class="subscribe__desc">
+          Get our latest update on your inbox. With lots of unique blocks, you
+          can easily build a page without coding. Build your next consultancy
+          website within few minutes.
+        </p>
+        <form class="subscribe-form" action="subscribe.html" method="post">
+          <div class="subscribe-info-left">
+            <div class="subscribe__item">
+              <p class="subscribe__title">Your first name</p>
+              <input
+                class="subscribe__input"
+                type="text"
+                name="firstName"
+                placeholder="Write your name here"
+              />
+            </div>
+            <div class="subscribe__item">
+              <p class="subscribe__title">Your Surname</p>
+              <input
+                class="subscribe__input"
+                type="text"
+                name="firstName"
+                placeholder="Write your surname here"
+              />
+            </div>
+            <div class="subscribe__item">
+              <p class="subscribe__title">Email Address</p>
+              <input
+                class="subscribe__input"
+                type="text"
+                name="firstName"
+                placeholder="Write your email Address here"
+              />
+            </div>
+            <div class="subscribe__item">
+              <p class="subscribe__title">Phone number</p>
+              <input
+                class="subscribe__input"
+                type="text"
+                name="firstName"
+                placeholder="Write your Phone number here"
+              />
+            </div>
+          </div>
+          <div class="subscribe-info-right">
+            <div class="subscribe__item">
+              <p class="subscribe__title">Subject</p>
+              <input
+                class="subscribe__input"
+                type="text"
+                name="firstName"
+                placeholder="Write a subjectline"
+              />
+            </div>
+            <div class="subscribe__item">
+              <p class="subscribe__title">Message</p>
+              <div class="subscribe__bg">
+                <textarea
+                  class="subscribe__message"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="4"
+                  placeholder="Add a brief of your project"
+                  value=""
+                ></textarea>
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+                <span class="line-4"></span>
+              </div>
+            </div>
+            <button class="subscribe__btn" type="submit">Subscribe</button>
+          </div>
+        </form>
+      </section>
     </main>
 
+    <footer></footer>
     <script src="./scripts/app.js"></script>
   </body>
 </html>

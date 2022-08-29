@@ -1,0 +1,15 @@
+.subscribe__btn {
+  margin: 16px 0 0;
+  padding: 12px 0;
+  width: 100%;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 143%;
+  text-align: center;
+  color: #eb5296;
+  background-color: transparent;
+  border: 2px solid #eb5296;
+  border-radius: 100px;
+}

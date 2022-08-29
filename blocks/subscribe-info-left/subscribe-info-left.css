@@ -1,0 +1,14 @@
+.subscribe-info-left {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 30px 60px 60px;
+  width: 50%;
+  gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .subscribe-info-left {
+    margin: 50px 12px 0;
+    width: auto;
+  }
+}

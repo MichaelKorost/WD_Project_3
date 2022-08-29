@@ -60,4 +60,15 @@
 @import '../blocks/testimonials/__title/testimonials__title.css';
 @import '../blocks/testimonials/testimonials.css';
 
-@import '../blocks/';
+@import '../blocks/subscribe-info-left/subscribe-info-left.css';
+@import '../blocks/subscribe-info-right/subscribe-info-right.css';
+@import '../blocks/subscribe/subscribe.css';
+@import '../blocks/subscribe-form.css/subscribe-form.css';
+@import '../blocks/subscribe/__bg/subscribe__bg.css';
+@import '../blocks/subscribe/__desc/subscribe__desc.css';
+@import '../blocks/subscribe/__heading/subscribe__heading.css';
+@import '../blocks/subscribe/__input/subscribe__input.css';
+@import '../blocks/subscribe/__item/subscribe__item.css';
+@import '../blocks/subscribe/__message/subscribe__message.css';
+@import '../blocks/subscribe/__btn/subscribe__btn.css';
+@import '../blocks/subscribe/__title/subscribe__title.css';
