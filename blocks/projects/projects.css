@@ -1,0 +1,19 @@
+.projects {
+    display: flex;
+    margin: 149px 67px;
+    gap: 100px;
+}
+
+@media (max-width:1024px) {
+    .projects {
+        margin: 50px 56px;
+        gap: 73px;
+    }
+}
+@media (max-width:768px) {
+    .projects {
+        flex-direction: column;
+        margin: 82px 21px;
+        gap: 40px;
+    }
+}

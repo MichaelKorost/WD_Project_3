@@ -44,3 +44,11 @@
 @import "../blocks/how/__text/how__text.css";
 @import "../blocks/how/__title/how__title.css";
 @import "../blocks/how/__divider/how__divider.css";
+
+@import '../blocks/projects-info-container/projects-info-container.css';
+@import '../blocks/projects/projects.css';
+@import '../blocks/projects/__img/projects__img.css';
+@import '../blocks/projects/__link/projects__link.css';
+@import '../blocks/projects/__text/projects__text.css';
+@import '../blocks/projects/__title/projects__title.css';
+@import '../blocks/projects/';

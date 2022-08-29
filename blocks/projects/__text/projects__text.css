@@ -1,0 +1,12 @@
+.projects__text {
+  margin: 0 0 100px;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 176%;
+  display: flex;
+  align-items: center;
+  color: #102a42;
+  opacity: 0.6;
+}
