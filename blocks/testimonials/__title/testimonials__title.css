@@ -1,0 +1,26 @@
+.testimonials__title {
+  margin: 0 124px 43px;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 129%;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .testimonials__title {
+    margin: 0 69px 26px;
+    font-size: 36px;
+    line-height: 140%;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials__title {
+    margin: 0 40px 32px;
+    font-size: 30px;
+    line-height: 113%;
+  }
+}

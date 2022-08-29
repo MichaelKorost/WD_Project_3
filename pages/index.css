@@ -51,4 +51,13 @@
 @import '../blocks/projects/__link/projects__link.css';
 @import '../blocks/projects/__text/projects__text.css';
 @import '../blocks/projects/__title/projects__title.css';
-@import '../blocks/projects/';
+
+
+@import '../blocks/testimonials-info-container/testimonials-info-container.css';
+@import '../blocks/testimonials/__video/testimonials__video.css';
+@import '../blocks/testimonials/__location/testimonials__location.css';
+@import '../blocks/testimonials/__name/testimonials__name.css';
+@import '../blocks/testimonials/__title/testimonials__title.css';
+@import '../blocks/testimonials/testimonials.css';
+
+@import '../blocks/';
