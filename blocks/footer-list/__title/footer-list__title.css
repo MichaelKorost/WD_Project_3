@@ -1,0 +1,16 @@
+.footer-list__title {
+  font-family: "Source Sans Pro", serif;
+  margin: 0 0 51px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  color: #eb5296;
+}
+
+@media (max-width:768px) {
+    .footer-list__title {
+        margin: 0 0 15px;
+    }
+}

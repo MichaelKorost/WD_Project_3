@@ -1,0 +1,13 @@
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+@media (max-width:768px) {
+    .footer-list {
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+}

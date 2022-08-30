@@ -73,3 +73,14 @@
 @import '../blocks/subscribe/__btn/subscribe__btn.css';
 @import '../blocks/subscribe/__title/subscribe__title.css';
 @import '../blocks/subscribe/__footer/subscribe__footer.css';
+
+@import '../blocks/footer-wrapper/footer-wrapper.css';
+@import '../blocks/footer-list/footer-list.css';
+@import '../blocks/footer-list/__text/footer-list__text.css';
+@import '../blocks/footer-list/__title/footer-list__title.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__copyright/footer__copyright.css';
+@import '../blocks/footer/__desc/footer__desc.css';
+@import '../blocks/footer/__head/footer__head.css';
+@import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/footer__copyright-outer/footer__copyright-outer.css';
