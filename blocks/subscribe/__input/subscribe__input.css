@@ -1,4 +1,4 @@
-.subscribe__input[type="text"] {
+.subscribe__input {
   width: 100%;
   padding: 10px 0;
   margin: 0;
@@ -12,10 +12,12 @@
   border-bottom: 1px solid #0a043c80;
 }
 
-.subscribe__input[type="text"]::placeholder {
+.subscribe__input::placeholder {
   color: #1d263a;
   opacity: 0.5;
 }
+
 .subscribe__input:focus {
   outline: none;
 }
+
