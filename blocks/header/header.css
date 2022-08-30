@@ -1,7 +1,8 @@
 .header {
   display: flex;
   flex-direction: column;
-  margin: 20px 67px 0;
+  margin: 0px 67px 0;
+  padding: 70px 0 0;
 }
 
 @media (max-width:1024px) {

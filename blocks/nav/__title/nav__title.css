@@ -5,13 +5,13 @@
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.2px;
-  color: #102a42;
   margin: 0;
 }
 
 .nav__title > a {
   margin: 0;
   text-decoration: none;
+  color: #102a42;
 }
 .nav__title > a:visited {
   color: #102a42;

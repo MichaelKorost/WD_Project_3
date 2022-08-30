@@ -6,6 +6,7 @@ const navTitle = document.querySelector(".nav__title");
 const navItem = document.querySelectorAll(".nav__item");
 
 
+
 navMenu.addEventListener("click", openNavMenu);
 
 function openNavMenu() {

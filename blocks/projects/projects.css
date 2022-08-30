@@ -1,12 +1,14 @@
 .projects {
     display: flex;
-    margin: 149px 67px;
+    margin: 0 67px 79px;
+    padding: 149px 0 0;
     gap: 100px;
 }
 
 @media (max-width:1024px) {
     .projects {
-        margin: 50px 56px;
+        margin: 0 56px 50px;
+        padding: 70px 0 0;
         gap: 73px;
     }
 }

@@ -1,5 +1,6 @@
 .showcase {
-  margin: 114px 67px;
+  margin: 0 67px 114px;
+  padding: 114px 0 0;
   display: grid;
   grid: 1fr 7fr / 8fr 1fr;
   grid-template-areas: 
@@ -9,7 +10,7 @@
 
 @media (max-width: 1024px) {
   .showcase {
-    margin: 69px 56px 104px;
+    margin: 0 56px 104px;
   }
 }
 
