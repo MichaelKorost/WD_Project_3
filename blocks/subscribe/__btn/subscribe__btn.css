@@ -12,4 +12,10 @@
   background-color: transparent;
   border: 2px solid #eb5296;
   border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe__btn:hover {
+  background-color: #eb529610;
 }

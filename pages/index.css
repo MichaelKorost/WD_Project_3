@@ -11,6 +11,8 @@
 @import "../blocks/nav/__menu-close/nav__menu-close.css";
 @import "../blocks/nav/__item/nav__item.css";
 
+@import '../blocks/section-indicator/section-indicator.css';
+
 @import "../blocks/header/header.css";
 @import "../blocks/heading/heading.css";
 @import "../blocks/heading/__img/heading__img.css";

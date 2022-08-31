@@ -64,8 +64,9 @@
         </li>
       </ul> -->
     </nav>
+    <p class="section-indicator">Header</p>
     <main>
-      <section data-nav="header" id="header" class="header">
+      <section data-nav="header" id="header" class="header header-section">
         <div class="heading">
           <img
             class="heading__img"
@@ -130,7 +131,7 @@
           </div>
         </div>
       </section>
-      <section data-nav="showcase" id="showcase" class="showcase">
+      <section data-nav="showcase" id="showcase" class="showcase showcase-section">
         <h1 class="showcase__title">Explore our exclusive design showcase.</h1>
         <div class="arrow-container">
           <img src="./assets/icons/nav-arrow-left.png" alt="left arrow" />
@@ -154,7 +155,7 @@
           />
         </div>
       </section>
-      <section data-nav="how we do it" id="how" class="how">
+      <section data-nav="how we do it" id="how" class="how how-sction">
         <h1 class="how__heading">This is how we do it<span>.</span></h1>
         <div class="how__item">
           <div class="how-left-info-container">
@@ -207,7 +208,7 @@
           </div>
         </div>
       </section>
-      <section data-nav="projects" id="projects" class="projects">
+      <section data-nav="projects" id="projects" class="projects projects-section">
         <img
           class="projects__img"
           src="./assets/images/projects-img.png"
@@ -225,7 +226,7 @@
           <a class="projects__link" href="#">EXPLORE OUR PROJECTS</a>
         </div>
       </section>
-      <section data-nav="testimonials" id="testimonials" class="testimonials">
+      <section data-nav="testimonials" id="testimonials" class="testimonials testimonials-section">
         <div class="testimonials-info-container">
           <h1 class="testimonials__title">
             “I absolutely love my new home and cannot thank you enough for all
@@ -241,7 +242,7 @@
           controls>
         </video>
       </section>
-      <section data-nav="subscribe" id="subscribe" class="subscribe">
+      <section data-nav="subscribe" id="subscribe" class="subscribe subscribe-section">
         <h1 class="subscribe__heading">
           Subscribe to our newsletter to get updated<span>.</span>
         </h1>
@@ -250,7 +251,7 @@
           can easily build a page without coding. Build your next consultancy
           website within few minutes.
         </p>
-        <form class="subscribe-form" action="subscribe.html" method="post">
+        <form class="subscribe-form" action="subscribe.html" method="post" target="_blank" >
           <div class="subscribe-info-left">
             <div class="subscribe__item">
               <p class="subscribe__title">Your first name</p>
@@ -259,6 +260,7 @@
                 type="text"
                 name="firstName"
                 placeholder="Write your name here"
+                required
               />
             </div>
             <div class="subscribe__item">
@@ -266,7 +268,7 @@
               <input
                 class="subscribe__input"
                 type="text"
-                name="firstName"
+                name="surname"
                 placeholder="Write your surname here"
               />
             </div>
@@ -277,6 +279,8 @@
                 type="email"
                 name="email"
                 placeholder="Write your email Address here"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                required
               />
             </div>
             <div class="subscribe__item">
@@ -286,6 +290,7 @@
                 type="number"
                 name="phoneNumber"
                 placeholder="Write your phone number here"
+                maxlength="10"
               />
             </div>
           </div>
@@ -295,8 +300,9 @@
               <input
                 class="subscribe__input"
                 type="text"
-                name="firstName"
+                name="subject"
                 placeholder="Write a subjectline"
+                required
               />
             </div>
             <div class="subscribe__item">
@@ -317,7 +323,7 @@
                 <span class="line-4"></span>
               </div>
             </div>
-            <button class="subscribe__btn" type="submit">Subscribe</button>
+            <button class="subscribe__btn" type="submit" >Subscribe</button>
           </div>
         </form>
         <div class="subscribe__footer">

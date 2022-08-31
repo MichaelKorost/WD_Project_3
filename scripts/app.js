@@ -36,6 +36,7 @@ function createListItem() {
   for (let i = 1; i < sections.length; i++) {
     const navListItem = document.createElement("li");
     navListItem.classList.add("nav__item");
+    navListItem.classList.add(`${sections[i].id}-section`); //relevant style for section highlighting
 
     const navListItemLink = document.createElement("a");
     navListItemLink.setAttribute("href", `#${sections[i].id}`);
@@ -84,3 +85,61 @@ function closeNavMenu() {
     toggleNavMenu();
   }
 }
+
+//highlight nav items when scrolling
+window.addEventListener("scroll", highlightNavItems);
+
+function highlightNavItems() {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop; //postion top of each section
+    const sectionHeight = section.clientHeight;
+
+    if (scrollY >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute(`id`); //gives the id of the section we are currently on
+    }
+  });
+  navItem.forEach((item) => {
+    item.classList.remove("nav__item--section-active");
+    if (item.classList.contains(`${current}-section`)) {
+      item.classList.add("nav__item--section-active");
+    }
+  });
+}
+
+//bottom left section indicator
+window.addEventListener("scroll", indicateSection);
+
+function indicateSection() {
+  const indicator = document.querySelector(".section-indicator");
+  sections.forEach((section) => {
+    const sectionBounding = section.getBoundingClientRect();
+    if (sectionBounding.top < window.innerHeight / 2) {
+      indicator.textContent = `Viewing ${section.getAttribute(
+        "data-nav"
+      )} section...`;
+    }
+  });
+}
+
+//form
+const subscribeForm = document.querySelector(".subscribe-form");
+
+subscribeForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const formData = new FormData(event.target);
+  const firstName = formData.get("firstName");
+  const surname = formData.get("surname");
+  const email = formData.get("email");
+  const phoneNumber = formData.get("phoneNumber");
+  const subject = formData.get("subject");
+  const message = formData.get("message");
+
+  console.log(`first name: ${firstName}
+  surname: ${surname}
+  email : ${email}
+  phoneNumber : ${phoneNumber}
+  subject : ${subject}
+  message : ${message}
+  `);
+});
