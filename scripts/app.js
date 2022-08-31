@@ -107,7 +107,7 @@ function highlightNavItems() {
   });
 }
 
-//bottom left section indicator
+//section indicator (bottom left)
 window.addEventListener("scroll", indicateSection);
 
 function indicateSection() {
@@ -135,11 +135,14 @@ subscribeForm.addEventListener("submit", (event) => {
   const subject = formData.get("subject");
   const message = formData.get("message");
 
-  console.log(`first name: ${firstName}
+  subscribeForm.reset();
+  let formPost = `Subscribed succesfully
+  first name: ${firstName}
   surname: ${surname}
   email : ${email}
   phoneNumber : ${phoneNumber}
   subject : ${subject}
   message : ${message}
-  `);
+  `;
+  alert(formPost);
 });
