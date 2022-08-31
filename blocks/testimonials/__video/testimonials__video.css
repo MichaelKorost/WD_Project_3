@@ -1,6 +1,6 @@
 .testimonials__video {
     width: 50%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 @media (max-width:768px) {

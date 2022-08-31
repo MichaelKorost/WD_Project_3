@@ -13,13 +13,11 @@
 @media (max-width: 768px) {
   .nav__item {
     display: none;
-    padding: 6% 0;
     width: 100%;
     font-family: "Source Sans Pro", serif;
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
-    line-height: 30px;
     color: #102a42;
     margin: 0 0 0 10px;
     justify-content: space-between;
@@ -34,11 +32,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
-    line-height: 30px;
+    line-height: 16vh;
     color: #102a42;
   }
 }
 
 .nav__item--active {
   display: flex;
+}
+
+.nav__item--active > a {
+  width: 100%;
 }

@@ -6,3 +6,7 @@ html {
     max-width: 1366px;
     margin: 0 auto;
 }
+
+.page--scroll-lock {
+    overflow: hidden;
+}
