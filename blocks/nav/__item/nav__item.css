@@ -1,5 +1,5 @@
 .nav__item a {
-  display: flex;
+  display: block;
   align-items: center;
   text-decoration: none;
   font-family: "Source Sans Pro", serif;
@@ -8,6 +8,10 @@
   font-size: 17px;
   line-height: 176%;
   color: #102a42;
+}
+
+.nav__item > a::first-letter{
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
