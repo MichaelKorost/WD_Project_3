@@ -1,0 +1,22 @@
+.showcase__title {
+  display: flex;
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  color: #102a42;
+  grid-area: title;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .showcase__title {
+    text-align: center;
+    font-size: 33px;
+    justify-self: center;
+    margin: 0 0 37px;
+  }
+}

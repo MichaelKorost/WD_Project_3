@@ -1,0 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.page--scroll-lock {
+    overflow: hidden;
+}
+

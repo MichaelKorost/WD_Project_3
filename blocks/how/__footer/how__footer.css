@@ -1,0 +1,27 @@
+.how__footer {
+  margin: 0;
+  width: 30%;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 169%;
+  letter-spacing: 4px;
+  color: #102a42;
+}
+
+.how__footer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width:1024px) {
+  .how__footer {
+    width: fit-content;
+  }
+}
+@media (max-width:768px) {
+  .how__footer {
+    width: fit-content;
+  }
+}

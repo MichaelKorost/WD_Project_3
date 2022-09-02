@@ -1,0 +1,9 @@
+.heading-info {
+margin: auto 62px;
+}
+
+@media (max-width:1024px) {
+    .heading-info {
+        margin: auto 22px;
+    }
+}

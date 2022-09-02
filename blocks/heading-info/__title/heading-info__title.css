@@ -1,0 +1,40 @@
+.heading-info__title {
+  margin: 34px 0 27px;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  color: #102a42;
+}
+
+.heading-info__title > span {
+  color: #EB5296;
+}
+
+@media (max-width: 1024px) {
+  .heading-info__title {
+    margin: 70px 0 30px;
+    font-family: "Source Sans Pro", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 122%;
+    color: #102a42;
+  }
+}
+
+@media (max-width:768px) {
+    .heading-info__title {
+        margin: 30px auto 10px;
+        width: fit-content;
+    }
+}
+@media (max-width:600px) {
+    .heading-info__title {
+        margin: 30px auto 10px;
+        width: fit-content;
+        font-size: 30px;
+    }
+}

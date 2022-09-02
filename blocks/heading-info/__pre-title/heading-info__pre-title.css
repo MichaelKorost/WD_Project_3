@@ -1,0 +1,17 @@
+.heading-info__pre-title {
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  color: #eb5296;
+}
+
+@media (max-width:768px) {
+    .heading-info__pre-title {
+        margin: 55px auto 0px;
+        width: fit-content;
+    }
+}

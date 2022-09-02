@@ -1,0 +1,10 @@
+.nav__title-dot {
+  font-family: "Source Sans Pro",serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  text-decoration: none;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  color: #EB5296;
+}

@@ -1,0 +1,19 @@
+.projects__img {
+    width: 50%;
+    object-fit: none;
+    height: 500px;
+    border-radius: 15px;
+}
+
+@media (max-width:768px) {
+    .projects__img {
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+@media (max-width:616px) {
+    .projects__img {
+        width: 100%;
+    }
+}

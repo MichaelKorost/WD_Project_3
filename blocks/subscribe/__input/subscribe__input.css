@@ -1,0 +1,23 @@
+.subscribe__input {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 187%;
+  color: #1d263a;
+  border: none;
+  border-bottom: 1px solid #0a043c80;
+}
+
+.subscribe__input::placeholder {
+  color: #1d263a;
+  opacity: 0.5;
+}
+
+.subscribe__input:focus {
+  outline: none;
+}
+

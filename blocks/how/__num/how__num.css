@@ -1,0 +1,25 @@
+.how__num {
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 143%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+  color: #6d0430;
+}
+
+@media (max-width:1024px) {
+    .how__num {
+        position: absolute;
+        top: -50px;
+    }
+}
+
+@media (max-width:768px) {
+    .how__num {
+        position: static;
+    }
+}

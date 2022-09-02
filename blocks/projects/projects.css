@@ -1,0 +1,21 @@
+.projects {
+    display: flex;
+    margin: 0 67px 79px;
+    padding: 149px 0 0;
+    gap: 100px;
+}
+
+@media (max-width:1024px) {
+    .projects {
+        margin: 0 56px 50px;
+        padding: 70px 0 0;
+        gap: 73px;
+    }
+}
+@media (max-width:768px) {
+    .projects {
+        flex-direction: column;
+        margin: 82px 21px;
+        gap: 40px;
+    }
+}

@@ -1,0 +1,21 @@
+.testimonials__location {
+  margin: 0 0 0 124px;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 176%;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .testimonials__location {
+    margin: 0 0 0 69px;
+  }
+}
+@media (max-width: 1024px) {
+  .testimonials__location {
+    margin: 0 0 0 40px;
+  }
+}

@@ -1,0 +1,27 @@
+.section-indicator {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  padding: 0 0 0 67px;
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  color: #102a42;
+  z-index: 1; 
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+@media (max-width:1024px) {
+    .section-indicator {
+        padding: 0 0 0 56px;
+    }
+}
+@media (max-width:1024px) {
+    .section-indicator {
+        padding: 0 0 0 21px;
+    }
+}

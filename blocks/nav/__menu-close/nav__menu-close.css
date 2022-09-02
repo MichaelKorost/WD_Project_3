@@ -1,0 +1,7 @@
+.nav__menu-close {
+    display: none;
+    margin-top: 5px;
+}
+.nav__menu-close--active {
+    display: block;
+}

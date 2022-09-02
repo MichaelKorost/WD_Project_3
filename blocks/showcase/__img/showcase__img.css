@@ -1,0 +1,23 @@
+.showcase__img {
+  max-width: calc(100% / 3);
+  min-width: 200px;
+  height: 605px;
+  border-radius: 15px;
+  object-fit: none;
+}
+
+@media (max-width: 1024px) {
+  .showcase__img {
+    height: 499px;
+    max-width: 289px;
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase__img {
+    min-width: none;
+    max-width: none;
+    height: 605px;
+    width: 100%;
+  }
+}

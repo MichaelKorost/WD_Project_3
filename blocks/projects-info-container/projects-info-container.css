@@ -1,0 +1,7 @@
+.projects-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 10% 0 0;
+    justify-content: center;
+}

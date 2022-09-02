@@ -1,0 +1,26 @@
+.subscribe__heading {
+  margin: 0 auto;
+  padding: 121px 0 36px;
+  width: 509px;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #eb5296;
+  opacity: 0.9;
+}
+
+.subscribe__heading > span {
+  color: black;
+}
+
+@media (max-width:768px) {
+  .subscribe__heading {
+    padding:  100px 0 0;
+    margin: 0 47px 36px;
+    width: auto;
+  }
+}

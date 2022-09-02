@@ -1,0 +1,15 @@
+.icon__text {
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 187%;
+  color: #102a42;
+  opacity: 0.8;
+}
+@media (max-width: 1024px) {
+  .icon__text {
+    text-align: center;
+  }
+}

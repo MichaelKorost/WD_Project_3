@@ -1,0 +1,88 @@
+@import "../fonts/fonts.css";
+
+@import "../blocks/page/page.css";
+
+@import "../blocks/nav-bar/nav-bar.css";
+@import "../blocks/nav/nav.css";
+@import "../blocks/nav/__title/nav__title.css";
+@import "../blocks/nav/__title-dot/nav__title-dot.css";
+@import "../blocks/nav/__arrow/nav__arrow.css";
+@import "../blocks/nav/__menu/nav__menu.css";
+@import "../blocks/nav/__menu-close/nav__menu-close.css";
+@import "../blocks/nav/__item/nav__item.css";
+
+@import '../blocks/section-indicator/section-indicator.css';
+
+@import "../blocks/header/header.css";
+@import "../blocks/heading/heading.css";
+@import "../blocks/heading/__img/heading__img.css";
+
+@import "../blocks/heading-info/heading-info.css";
+@import "../blocks/heading-info/__pre-title/heading-info__pre-title.css";
+@import "../blocks/heading-info/__title/heading-info__title.css";
+@import "../blocks/heading-info/__desc/heading-info__desc.css";
+@import "../blocks/heading-info/__footer/heading-info__footer.css";
+
+@import "../blocks/icons-container/icons-container.css";
+@import "../blocks/icon-info-container/icon-info-container.css";
+@import "../blocks/icon/icon.css";
+@import "../blocks/icon/__img/icon__img.css";
+@import "../blocks/icon/__text/icon__text.css";
+@import "../blocks/icon/__title/icon__title.css";
+
+@import "../blocks/showcase-img-container/showcase-img-container.css";
+@import "../blocks/arrow-container/arrow-container.css";
+@import "../blocks/showcase/showcase.css";
+@import "../blocks/showcase/__img/showcase__img.css";
+@import "../blocks/showcase/__title/showcase__title.css";
+
+@import "../blocks/how-left-info-container/how-left-info-container.css";
+@import "../blocks/how-right-info-container/how-right-info-container.css";
+@import "../blocks/how/how.css";
+@import "../blocks/how/__footer/how__footer.css";
+@import "../blocks/how/__heading/how__heading.css";
+@import "../blocks/how/__item/how__item.css";
+@import "../blocks/how/__num/how__num.css";
+@import "../blocks/how/__text/how__text.css";
+@import "../blocks/how/__title/how__title.css";
+@import "../blocks/how/__divider/how__divider.css";
+
+@import '../blocks/projects-info-container/projects-info-container.css';
+@import '../blocks/projects/projects.css';
+@import '../blocks/projects/__img/projects__img.css';
+@import '../blocks/projects/__link/projects__link.css';
+@import '../blocks/projects/__text/projects__text.css';
+@import '../blocks/projects/__title/projects__title.css';
+
+
+@import '../blocks/testimonials-info-container/testimonials-info-container.css';
+@import '../blocks/testimonials/__video/testimonials__video.css';
+@import '../blocks/testimonials/__location/testimonials__location.css';
+@import '../blocks/testimonials/__name/testimonials__name.css';
+@import '../blocks/testimonials/__title/testimonials__title.css';
+@import '../blocks/testimonials/testimonials.css';
+
+@import '../blocks/subscribe-info-left/subscribe-info-left.css';
+@import '../blocks/subscribe-info-right/subscribe-info-right.css';
+@import '../blocks/subscribe/subscribe.css';
+@import '../blocks/subscribe-form.css/subscribe-form.css';
+@import '../blocks/subscribe/__bg/subscribe__bg.css';
+@import '../blocks/subscribe/__desc/subscribe__desc.css';
+@import '../blocks/subscribe/__heading/subscribe__heading.css';
+@import '../blocks/subscribe/__input/subscribe__input.css';
+@import '../blocks/subscribe/__item/subscribe__item.css';
+@import '../blocks/subscribe/__message/subscribe__message.css';
+@import '../blocks/subscribe/__btn/subscribe__btn.css';
+@import '../blocks/subscribe/__title/subscribe__title.css';
+@import '../blocks/subscribe/__footer/subscribe__footer.css';
+
+@import '../blocks/footer-wrapper/footer-wrapper.css';
+@import '../blocks/footer-list/footer-list.css';
+@import '../blocks/footer-list/__text/footer-list__text.css';
+@import '../blocks/footer-list/__title/footer-list__title.css';
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__copyright/footer__copyright.css';
+@import '../blocks/footer/__desc/footer__desc.css';
+@import '../blocks/footer/__head/footer__head.css';
+@import '../blocks/footer/__heading/footer__heading.css';
+@import '../blocks/footer__copyright-outer/footer__copyright-outer.css';

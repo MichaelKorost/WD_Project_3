@@ -1,0 +1,14 @@
+.heading {
+  display: flex;
+  min-height: 676px;
+  border-radius: 30px;
+  background: #6d04300d;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    flex-direction: column;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}

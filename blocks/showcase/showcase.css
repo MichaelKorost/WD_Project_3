@@ -1,0 +1,26 @@
+.showcase {
+  margin: 0 67px 114px;
+  padding: 114px 0 0;
+  display: grid;
+  grid: 1fr 7fr / 8fr 1fr;
+  grid-template-areas: 
+  'title arrows'
+  'images images';
+}
+
+@media (max-width: 1024px) {
+  .showcase {
+    margin: 0 56px 104px;
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase {
+    margin: 0 21px 68px;
+    grid: 0.8fr 10fr 0.8fr / 100%;
+    grid-template-areas: 
+    'title'
+    'images'
+    'arrows';
+  }
+}

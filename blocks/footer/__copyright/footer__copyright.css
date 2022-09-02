@@ -1,0 +1,16 @@
+.footer__copyright {
+  margin: 0;
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 187%;
+  color: #1d263a;
+  opacity: 0.7;
+}
+
+@media (max-width:768px) {
+    .footer__copyright {
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.nav__title {
+  font-family: "Source Sans Pro", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+  margin: 0;
+}
+
+.nav__title > a {
+  margin: 0;
+  text-decoration: none;
+  color: #102a42;
+}
+.nav__title > a:visited {
+  color: #102a42;
+}
+
+@media (max-width: 768px) {
+  .nav__title {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+  }
+
+  .nav__title--active {
+    padding: 0 0 55px;
+    border-bottom: 1px solid #eb529680;
+  }
+}

@@ -1,0 +1,18 @@
+.how__divider {
+  margin: 0 67px;
+  background-color: #EB5296;
+  opacity: 0.5;
+  border: none;
+  height: 1px;
+}
+
+@media (max-width:1024px) {
+    .how__divider{
+        margin: 0 56px;
+    }
+}
+@media (max-width:768px) {
+    .how__divider{
+        margin: 0 21px;
+    }
+}

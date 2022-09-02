@@ -1,0 +1,19 @@
+.subscribe-form {
+    margin: 0 143px;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+}
+
+
+@media (max-width:1024px) {
+    .subscribe-form {
+        margin: 0 56px;
+    }
+}
+@media (max-width:768px) {
+    .subscribe-form {
+        flex-direction: column;
+        margin: 0 21px;
+    }
+}

@@ -1,0 +1,29 @@
+.how__heading {
+  padding: 136px 0 41px;
+  margin: 0;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: -1px;
+  color: #eb5296;
+}
+
+.how__heading > span {
+  color: black;
+}
+
+@media (max-width:1024px) {
+    .how__heading {
+        padding: 81px 0 0;
+    }
+}
+@media (max-width:768px) {
+    .how__heading {
+        margin: 0 21px;
+        font-size: 33px;
+        line-height: 115%;
+    }
+}

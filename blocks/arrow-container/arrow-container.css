@@ -1,0 +1,15 @@
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  justify-self: flex-end;
+  width: 68px;
+  height: 20px;
+  grid-area: arrows;
+}
+
+@media (max-width: 768px) {
+  .arrow-container {
+    justify-self: center;
+  }
+}
