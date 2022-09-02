@@ -61,6 +61,7 @@ const navTitle = document.querySelector(".nav__title");
 const navTitleLogo = document.querySelector(".nav__title a");
 const navItem = document.querySelectorAll(".nav__item");
 
+//relevant only for mobile view
 navMenu.addEventListener("click", toggleNavMenu);
 
 function toggleNavMenu() {
@@ -107,7 +108,7 @@ function highlightNavItems() {
   });
 }
 
-//section indicator (bottom left)
+//section indicator (bottom left of the site)
 window.addEventListener("scroll", indicateSection);
 
 function indicateSection() {
@@ -136,6 +137,7 @@ subscribeForm.addEventListener("submit", (event) => {
   const message = formData.get("message");
 
   subscribeForm.reset();
+
   let formPost = `Subscribed succesfully
   first name: ${firstName}
   surname: ${surname}
@@ -146,3 +148,19 @@ subscribeForm.addEventListener("submit", (event) => {
   `;
   alert(formPost);
 });
+
+//hide nav bar after 5 seconds of user idle
+
+let timeout;
+document.addEventListener("mousemove", showNav);
+document.addEventListener("scroll", showNav);
+
+function showNav() {
+  navBar.classList.remove("nav-bar--hide");
+  clearTimeout(timeout);
+  if (!navBar.classList.contains("nav--active")) {
+    timeout = setTimeout(() => {
+      navBar.classList.add("nav-bar--hide");
+    }, 5000);
+  }
+}
