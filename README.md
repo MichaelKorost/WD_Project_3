@@ -1,7 +1,13 @@
 # Landing page
+
 ### Description
 
-Responsive Landing page made with HTML5, CSS and JS... .
+Responsive Landing page made with HTML5, CSS using BEM methodology and JS.
+
+### features
+
+- Dynamically created Navigation bar based on the section amount
+- Navigation bar automatically hides when the user is idle for 5 seconds
 
 ### Figma
 
@@ -9,4 +15,4 @@ Responsive Landing page made with HTML5, CSS and JS... .
 
 ### Github pages
 
-<!-- - [Link to my website on Github pages](https://michaelkorost.github.io/landing_page/) -->
+- [Link to my website on Github pages](https://michaelkorost.github.io/landing_page/)
