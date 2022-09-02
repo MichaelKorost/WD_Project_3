@@ -10,6 +10,11 @@
   color: #102a42;
 }
 
+.how__footer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media (max-width:1024px) {
   .how__footer {
     width: fit-content;

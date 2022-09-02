@@ -16,7 +16,7 @@
 
 @media (max-width: 768px) {
   .showcase {
-    margin: 68px 21px;
+    margin: 0 21px 68px;
     grid: 0.8fr 10fr 0.8fr / 100%;
     grid-template-areas: 
     'title'

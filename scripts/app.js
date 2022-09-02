@@ -151,10 +151,10 @@ subscribeForm.addEventListener("submit", (event) => {
 
 //hide nav bar after 5 seconds of user idle
 
-let timeout;
 document.addEventListener("mousemove", showNav);
 document.addEventListener("scroll", showNav);
 
+let timeout;
 function showNav() {
   navBar.classList.remove("nav-bar--hide");
   clearTimeout(timeout);

@@ -7,7 +7,9 @@
   line-height: 169%;
   letter-spacing: 4px;
   color: #eb5296;
+  pointer-events: none;
 }
+
 .projects__link:visited {
   color: #eb5296;
 }
