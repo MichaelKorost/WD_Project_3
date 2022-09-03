@@ -16,7 +16,7 @@ divTitle.addEventListener("click", (e) => {
   headerSection.scrollIntoView({
     behavior: "smooth",
     block: "start",
-    inline: "nearest",
+    inline: "start",
   });
 });
 const divButton = document.createElement("button");
@@ -57,7 +57,7 @@ function createListItem() {
       sections[i].scrollIntoView({
         behavior: "smooth",
         block: "start",
-        inline: "nearest",
+        inline: "start",
       });
     });
     const navListItemImg = document.createElement("img");
