@@ -9,6 +9,15 @@ divLogo.classList.add("nav__title");
 const divTitle = document.createElement("a");
 divTitle.setAttribute("href", "#header");
 divTitle.innerHTML = "PinkPink<span class='nav__title-dot'>.</span>";
+divTitle.addEventListener("click", (e) => {
+  e.preventDefault();
+  const headerSection = document.querySelector(".header");
+  headerSection.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest",
+  });
+});
 const divButton = document.createElement("button");
 divButton.classList.add("nav__menu");
 const divButtonImg = document.createElement("img");
@@ -39,9 +48,16 @@ function createListItem() {
     navListItem.classList.add(`${sections[i].id}-section`); //relevant style for section highlighting
 
     const navListItemLink = document.createElement("a");
-    navListItemLink.setAttribute("href", `#${sections[i].id}`);
+    navListItemLink.setAttribute("href", `#`);
     navListItemLink.textContent = sections[i].getAttribute("data-nav");
-
+    navListItemLink.addEventListener("click", (e) => {
+      e.preventDefault();
+      sections[i].scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    });
     const navListItemImg = document.createElement("img");
     navListItemImg.setAttribute("src", "./assets/icons/nav-mobile-arrow.png");
     navListItemImg.setAttribute("alt", "arrow");
