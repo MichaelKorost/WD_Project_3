@@ -7,3 +7,9 @@
     margin: 57px 56px;
   }
 }
+
+@media (max-width:768px) {
+  .footer {
+    margin: 72px 21px 0;
+  }
+}
