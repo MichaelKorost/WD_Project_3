@@ -2,7 +2,7 @@ const navBar = document.querySelector(".nav-bar"); //getting navBar to append in
 const sections = document.querySelectorAll("section"); //getting sections to name each navBar item
 
 //creating navbar dynamically
-const navFragment = document.createDocumentFragment()
+const navFragment = document.createDocumentFragment();
 const ul = document.createElement("ul");
 ul.classList.add("nav");
 const divLogo = document.createElement("div");
@@ -13,11 +13,13 @@ divTitle.innerHTML = "PinkPink<span class='nav__title-dot'>.</span>";
 divTitle.addEventListener("click", (e) => {
   e.preventDefault();
   const headerSection = document.querySelector(".header");
-  headerSection.scrollIntoView({
-    behavior: "smooth",
-    block: "start",
-    inline: "start",
-  });
+  setTimeout(() => {
+    headerSection.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+      inline: "start",
+    });
+  }, 0);
 });
 const divButton = document.createElement("button");
 divButton.classList.add("nav__menu");
@@ -39,7 +41,7 @@ divLogo.appendChild(divTitle);
 divLogo.appendChild(divButton);
 
 ul.appendChild(divLogo);
-navFragment.appendChild(ul)
+navFragment.appendChild(ul);
 navBar.appendChild(navFragment);
 
 createListItem(); //for each section creating a nav item
@@ -54,10 +56,16 @@ function createListItem() {
     navListItemLink.textContent = sections[i].getAttribute("data-nav");
     navListItemLink.addEventListener("click", (e) => {
       e.preventDefault();
-      sections[i].scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-        inline: "start",
+      //setTimeout to fix mobile menu scroll (getting it out of the call stack fixes nav items display affecting page scroll)
+      setTimeout(() => {
+        sections[i].scrollIntoView(
+          {
+            behavior: "smooth",
+            block: "start",
+            inline: "start",
+          },
+          0
+        );
       });
     });
     const navListItemImg = document.createElement("img");
