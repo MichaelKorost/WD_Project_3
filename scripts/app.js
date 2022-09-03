@@ -2,6 +2,7 @@ const navBar = document.querySelector(".nav-bar"); //getting navBar to append in
 const sections = document.querySelectorAll("section"); //getting sections to name each navBar item
 
 //creating navbar dynamically
+const navFragment = document.createDocumentFragment()
 const ul = document.createElement("ul");
 ul.classList.add("nav");
 const divLogo = document.createElement("div");
@@ -38,7 +39,8 @@ divLogo.appendChild(divTitle);
 divLogo.appendChild(divButton);
 
 ul.appendChild(divLogo);
-navBar.appendChild(ul);
+navFragment.appendChild(ul)
+navBar.appendChild(navFragment);
 
 createListItem(); //for each section creating a nav item
 function createListItem() {
