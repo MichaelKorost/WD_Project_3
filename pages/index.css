@@ -30,6 +30,7 @@
 @import "../blocks/icon/__text/icon__text.css";
 @import "../blocks/icon/__title/icon__title.css";
 
+@import "../blocks/showcase-nav/showcase-nav.css";
 @import "../blocks/showcase-img-container/showcase-img-container.css";
 @import "../blocks/arrow-container/arrow-container.css";
 @import "../blocks/showcase/showcase.css";

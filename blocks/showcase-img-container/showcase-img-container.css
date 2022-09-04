@@ -1,13 +1,10 @@
 .showcase-img-container {
     display: flex;
-    gap: 22px;
-    grid-area: images;
-    justify-content: center;
 }
 
 @media (max-width:1024px) {
     .showcase-img-container{
-        flex-wrap: wrap;   
+      
     }
 }
 
@@ -15,3 +12,4 @@
     .showcase-img-container {
     }
 }
+
