@@ -7,8 +7,11 @@
     margin: 57px 56px;
   }
 }
-@media (max-width: 768px) {
+
+
+@media (max-width:768px) {
   .footer {
-    margin: 57px 21px;
+    margin: 72px 21px 0;
   }
 }
+
