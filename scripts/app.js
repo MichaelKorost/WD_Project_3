@@ -190,3 +190,47 @@ function showNav() {
     }, 5000);
   }
 }
+
+//showcase slideshow 
+const showcaseImgcontainer = document.querySelector(".showcase-img-container");
+const showcaseImg = document.querySelectorAll(".showcase__img");
+
+const leftArrow = document.querySelectorAll(".leftArrow");
+const rightArrow = document.querySelectorAll(".rightArrow");
+
+//img counter
+let counter = 1;
+const size = showcaseImg[0].clientWidth; //taking img width for translate calculation
+showcaseImgcontainer.style.transform = `translate(${-size * counter}px)`;
+
+//arrows
+rightArrow.forEach((rightArrow) => {
+  rightArrow.addEventListener("click", () => {
+    if (counter >= showcaseImg.length - 1) return;
+    showcaseImgcontainer.style.transition = "transform 0.4s ease-in-out";
+    counter++;
+    showcaseImgcontainer.style.transform = `translateX(${-size * counter}px`;
+  });
+});
+
+leftArrow.forEach((leftArrow) => {
+  leftArrow.addEventListener("click", () => {
+    if (counter <= 0) return;
+    showcaseImgcontainer.style.transition = "transform 0.4s ease-in-out";
+    counter--;
+    showcaseImgcontainer.style.transform = `translateX(${-size * counter}px`;
+  });
+});
+
+showcaseImgcontainer.addEventListener("transitionend", () => {
+  if (showcaseImg[counter].id === "lastClone") {
+    showcaseImgcontainer.style.transition = "none"; //this removed the sliding animation when resetting the slidshow
+    counter = showcaseImg.length - 2;
+    showcaseImgcontainer.style.transform = `translateX(${-size * counter}px`;
+  }
+  if (showcaseImg[counter].id === "firstClone") {
+    showcaseImgcontainer.style.transition = "none"; //this removed the sliding animation when resetting the slidshow
+    counter = 1;
+    showcaseImgcontainer.style.transform = `translateX(${-size * counter}px`;
+  }
+});
