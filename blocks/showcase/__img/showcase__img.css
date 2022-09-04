@@ -15,16 +15,6 @@
   padding-left: 10px;
 }
 
-@media (max-width: 1024px) {
-  .showcase__img {
-  }
-}
-
-@media (max-width: 768px) {
-  .showcase__img {
-  }
-}
-
 @media (max-width: 440px) {
   .showcase__img {
     width: 340px;
