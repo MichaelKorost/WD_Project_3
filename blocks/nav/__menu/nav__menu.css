@@ -3,6 +3,7 @@
    border: none;
    background-color: transparent;
    display: none;
+   cursor: pointer;
 }
 
 @media (max-width: 768px) {

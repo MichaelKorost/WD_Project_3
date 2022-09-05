@@ -1,6 +1,7 @@
 .nav__menu-close {
     display: none;
     margin-top: 5px;
+    cursor: pointer;
 }
 .nav__menu-close--active {
     display: block;
