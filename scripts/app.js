@@ -200,13 +200,14 @@ const rightArrow = document.querySelectorAll(".rightArrow");
 
 //img counter
 let counter = 1;
-const size = showcaseImg[0].clientWidth; //taking img width for translate calculation
+let size = showcaseImg[0].clientWidth; //taking img width for translate calculation
 showcaseImgcontainer.style.transform = `translate(${-size * counter}px)`;
 
 //arrows
 rightArrow.forEach((rightArrow) => {
   rightArrow.addEventListener("click", () => {
     if (counter >= showcaseImg.length - 1) return;
+    size = showcaseImg[0].clientWidth
     showcaseImgcontainer.style.transition = "transform 0.4s ease-in-out";
     counter++;
     showcaseImgcontainer.style.transform = `translateX(${-size * counter}px`;
@@ -216,6 +217,7 @@ rightArrow.forEach((rightArrow) => {
 leftArrow.forEach((leftArrow) => {
   leftArrow.addEventListener("click", () => {
     if (counter <= 0) return;
+    size = showcaseImg[0].clientWidth
     showcaseImgcontainer.style.transition = "transform 0.4s ease-in-out";
     counter--;
     showcaseImgcontainer.style.transform = `translateX(${-size * counter}px`;
