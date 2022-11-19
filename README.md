@@ -15,4 +15,4 @@ Responsive Landing page made with HTML5, CSS using BEM methodology and JS.
 
 ### Github pages
 
-- [Link to my website on Github pages](https://michaelkorost.github.io/landing_page/)
+- [Link to my website on Github pages](https://michaelkorost.github.io/WD_Project_3/)
